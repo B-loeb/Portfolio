@@ -1,0 +1,76 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+        /* border: 1pm solid red; */
+}
+main{
+    background: linear-gradient(to right top, #f3b736, #310350);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glass {
+    background: whitesmoke;
+    min-height: 75vh;
+    width: 65%;
+    border-radius: 2rem;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1));
+    display: inline-block;
+}
+.dashboard {
+    display: flex;
+    align-items: center;
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1));
+    border-radius: 2rem;
+    position: relative;
+    flex-direction: column;
+    z-index: 2;
+}
+h1 {
+    font-size: 3rem;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(59, 2, 82);
+    opacity: .6;
+}
+h2{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(34, 34, 34);
+    opacity: .6;
+}
+h3{
+    font-size: 2rem;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(149, 64, 219);
+    opacity: .7;
+}
+p{
+    text-align: center;
+    margin-bottom: 1vmax;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgba(35, 105, 184, 0.514);
+}
+ul{
+    text-align: center;
+    list-style: inside;
+    padding-left: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 51, 99, 0.6);
+}
+img{
+    padding-top: 5px;
+    border: 5;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+hr{
+    color: rgb(148, 210, 238);
+}
